@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: white;
+}
+
+.obshak {
+    width: 650px;
+}
+
+.samij_verh{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.verh_txt{
+    color: black;
+}
+
+.verh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 180px;
+    background: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.srednij_obshak {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.levij {
+    width: 260px;
+    height: 330px;
+    background: black;
+    border-radius: 15px;
+}
+
+.pravij {
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.vakancii {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 90px;
+    background: black;
+    border-radius: 10px;
+    padding: 10px; 
+    position: relative;
+}
+
+/* .niz {
+    height: 190px;
+    background: black;
+    border-radius: 45px;
+} */
+
+.vverhnij_text {
+    color: white;
+    text-align: center;
+    
+    font-size: 48px;
+}
+
+.company{
+    font-size: 8px;
+}
+
+.offer {
+    font-size: 16px;
+}
+
+.place{
+    font-size: 7px;
+    color: aliceblue;
+}
+
+.plushki_div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 10px; 
+}
+
+.plushki{
+    font-size: 7px;
+    color: black;
+    background-color: ghostwhite;
+    border-radius: 1px;
+    
+}
+
+.badge {
+ position: absolute;
+   top: -8px;
+ right: -8px;
+   background-color: #2a8af1;
+   color: white;
+ padding: 4px 12px;
+   border-radius: 12px;
+ font-size: 12px;
+   font-weight: bold;
+   transform: rotate(10deg);
+
+  }
+
+
+/* display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap; */
